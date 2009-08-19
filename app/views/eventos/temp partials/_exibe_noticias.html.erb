@@ -1,0 +1,17 @@
+<h1>Notícias</h1>
+
+<% @noticias.each do |noticia| %>
+
+<p>
+  <b><%=h noticia.titulo %></b>
+</p>
+
+<p>
+  <%=h noticia.descricao %>
+</p>
+
+<p>
+  <%=h noticia.data %>
+</p>
+
+<% end %>

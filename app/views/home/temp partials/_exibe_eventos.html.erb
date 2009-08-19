@@ -1,0 +1,7 @@
+<h1>Agenda da ATIDEV</h1>
+
+<% @eventos.each do |evento| %>
+
+    <%= link_to evento.titulo, evento_path(evento) %> <br />
+
+<% end %>

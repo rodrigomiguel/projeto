@@ -1,0 +1,4711 @@
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:17:54) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:19:26) [GET]
+
+ActionView::MissingTemplate (Missing template home/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:24:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 80ms (View: 63, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-17 09:24:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/default.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-17 09:24:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:24:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-17 09:24:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:25:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 52ms (View: 49, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-17 09:25:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:25:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-17 09:25:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:26:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-17 09:26:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:26:39) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-17 09:26:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (5.2ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (2.7ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateEventos (20090817122709)
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TABLE "eventos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "titulo" varchar(255), "descricao" text, "data" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090817122709')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("eventos")[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:27:35) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 27ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:28:43) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #63 of app/views/layouts/application.html.erb:
+60:     <th>Data</th>
+61:   </tr>
+62: 
+63: <% @eventos.each do |evento| %>
+64:   <tr>
+65:     <td><%=h evento.titulo %></td>
+66:     <td><%=h evento.descricao %></td>
+
+    app/views/layouts/application.html.erb:63
+
+Rendered rescues/_trace (80.7ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:32:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 36ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 09:32:36) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/eventos
+Rendering eventos/index
+Completed in 88ms (View: 60, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 09:33:27) [GET]
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 24ms (View: 3, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 09:48:44) [GET]
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 29ms (View: 15, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 09:48:45) [GET]
+  [4;35;1mEvento Load (2.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 33ms (View: 7, DB: 2) | 200 OK [http://localhost/eventos]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:48:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #61 of app/views/layouts/application.html.erb:
+58:     <th>Data</th>
+59:   </tr>
+60: 
+61: <% @eventos.each do |evento| %>
+62:   <tr>
+63:     <td><%=h evento.titulo %></td>
+64:     <td><%=h evento.descricao %></td>
+
+    app/views/layouts/application.html.erb:61
+
+Rendered rescues/_trace (109.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 09:49:08) [GET]
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 17ms (View: 3, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:49:27) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #61 of app/views/layouts/application.html.erb:
+58:     <th>Data</th>
+59:   </tr>
+60: 
+61: <% @eventos.each do |eventos.evento| %>
+62:   <tr>
+63:     <td><%=h evento.titulo %></td>
+64:     <td><%=h evento.descricao %></td>
+
+    app/views/layouts/application.html.erb:61
+
+Rendered rescues/_trace (145.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:49:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `eventos' for #<ActionView::Base:0xb77a8138>) on line #61 of app/views/layouts/application.html.erb:
+58:     <th>Data</th>
+59:   </tr>
+60: 
+61: <% eventos.each do |evento| %>
+62:   <tr>
+63:     <td><%=h evento.titulo %></td>
+64:     <td><%=h evento.descricao %></td>
+
+    app/views/layouts/application.html.erb:61
+
+Rendered rescues/_trace (97.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:49:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `eventos' for #<ActionView::Base:0xb73ca41c>) on line #61 of app/views/layouts/application.html.erb:
+58:     <th>Data</th>
+59:   </tr>
+60: 
+61: <% eventos.each do |evento| %>
+62:   <tr>
+63:     <td><%=h evento.titulo %></td>
+64:     <td><%=h evento.descricao %></td>
+
+    app/views/layouts/application.html.erb:61
+
+Rendered rescues/_trace (201.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:50:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `each' for :eventos:Symbol) on line #61 of app/views/layouts/application.html.erb:
+58:     <th>Data</th>
+59:   </tr>
+60: 
+61: <% :eventos.each do |evento| %>
+62:   <tr>
+63:     <td><%=h evento.titulo %></td>
+64:     <td><%=h evento.descricao %></td>
+
+    app/views/layouts/application.html.erb:61
+
+Rendered rescues/_trace (86.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:50:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `each' for :eventos:Symbol) on line #61 of app/views/layouts/application.html.erb:
+58:     <th>Data</th>
+59:   </tr>
+60: 
+61: <% :eventos.each do |evento| %>
+62:   <tr>
+63:     <td><%=h evento.titulo %></td>
+64:     <td><%=h evento.descricao %></td>
+
+    app/views/layouts/application.html.erb:61
+
+Rendered rescues/_trace (122.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:54:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 21, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:54:09) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 35ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:54:10) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:54:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:54:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 39ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:55:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `evento' for #<ActionView::Base:0xb757c97c>) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :controller => "evento", :locals =>{:evento => evento} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+
+Rendered rescues/_trace (75.2ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:55:48) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `eventos' for #<ActionView::Base:0xb7aca564>) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :controller => "evento", :locals =>{:eventos => eventos} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+
+Rendered rescues/_trace (79.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:55:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `eventos' for #<ActionView::Base:0xb739e4c0>) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :controller => "evento", :locals =>{:eventos => eventos} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:56:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:56:26) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:56:30) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 09:56:34) [GET]
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 39ms (View: 27, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 09:56:58) [GET]
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 61ms (View: 21, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:57:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 206ms (View: 203, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:57:49) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 58ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 09:57:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:09:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 40ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:09:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:10:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:10:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 27ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:10:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 28ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:10:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 20ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:10:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 26ms (View: 25 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:10:48) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/home/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/home/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+
+Rendered rescues/_trace (91.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:13:14) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (0.3ms)
+Completed in 18ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:17:30) [GET]
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 40ms (View: 22, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:17:49) [GET]
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 40ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:17:50) [GET]
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 43ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:17:50) [GET]
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 54ms (View: 45, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:17:51) [GET]
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 42ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:20:08) [GET]
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (0.3ms)
+Completed in 44ms (View: 23, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#new (for 127.0.0.1 at 2009-08-17 10:20:09) [GET]
+Rendering template within layouts/application
+Rendering eventos/new
+
+ActionView::TemplateError (Missing template eventos/_eventos.erb in view path app/views) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :partial => "eventos", :locals =>{:eventos => 'eventos'} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:29:in `new'
+
+Rendered rescues/_trace (196.4ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#new (for 127.0.0.1 at 2009-08-17 10:20:40) [GET]
+Rendering template within layouts/application
+Rendering eventos/new
+
+ActionView::TemplateError (Missing template eventos/_eventos.erb in view path app/views) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :partial => "eventos", :locals =>{:eventos => 'eventos'} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:29:in `new'
+
+Rendered rescues/_trace (81.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#new (for 127.0.0.1 at 2009-08-17 10:21:53) [GET]
+Rendering template within layouts/application
+Rendering eventos/new
+Completed in 79ms (View: 38, DB: 0) | 200 OK [http://localhost/eventos/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:24:29) [GET]
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (0.2ms)
+Completed in 30ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#new (for 127.0.0.1 at 2009-08-17 10:25:03) [GET]
+Rendering template within layouts/application
+Rendering eventos/new
+
+ActionView::TemplateError (Missing template eventos/_eventos.erb in view path app/views) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :partial => "eventos", :locals =>{:eventos => 'eventos'} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:29:in `new'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#new (for 127.0.0.1 at 2009-08-17 10:26:20) [GET]
+Rendering template within layouts/application
+Rendering eventos/new
+
+ActionView::TemplateError (Missing template eventos/_eventos.erb in view path app/views) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :partial => "eventos", :locals =>{:eventos => 'eventos'} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:29:in `new'
+
+Rendered rescues/_trace (257.6ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:27:17) [GET]
+  [4;35;1mEvento Load (2.4ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 61ms (View: 22, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:27:27) [GET]
+  [4;36;1mEvento Load (21.8ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 43ms (View: 3, DB: 22) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#new (for 127.0.0.1 at 2009-08-17 10:27:28) [GET]
+Rendering template within layouts/application
+Rendering eventos/new
+Completed in 58ms (View: 15, DB: 0) | 200 OK [http://localhost/eventos/new]
+
+
+Processing EventosController#create (for 127.0.0.1 at 2009-08-17 10:28:11) [POST]
+  Parameters: {"commit"=>"Create", "evento"=>{"data(4i)"=>"13", "data(5i)"=>"27", "data(1i)"=>"2009", "data(2i)"=>"8", "titulo"=>"Curso Soroban", "descricao"=>"Curso de Soroban para instrutores.", "data(3i)"=>"17"}, "authenticity_token"=>"gooaRl9Jcqzv2EbI6VAVETx0m4SjkvrFI2GUqLyXQD4="}
+  [4;35;1mEvento Create (0.9ms)[0m   [0mINSERT INTO "eventos" ("updated_at", "titulo", "descricao", "data", "created_at") VALUES('2009-08-17 13:28:11', 'Curso Soroban', 'Curso de Soroban para instrutores.', '2009-08-17 13:27:00', '2009-08-17 13:28:11')[0m
+Redirected to http://localhost:3000/eventos/1
+Completed in 97ms (DB: 1) | 302 Found [http://localhost/eventos]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:28:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Completed in 26ms (View: 11, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:28:21) [GET]
+  [4;35;1mEvento Load (22.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 43ms (View: 5, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:28:26) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 25ms (View: 15, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:28:52) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (37.3ms)
+Completed in 111ms (View: 78, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:31:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (Missing template eventos/_eventos.erb in view path app/views) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :partial => "eventos", :locals =>{:eventos => 'eventos'} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (77.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:31:56) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (5.7ms)
+Completed in 46ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:31:57) [GET]
+  [4;36;1mEvento Load (2.5ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (Missing template eventos/_eventos.erb in view path app/views) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :partial => "eventos", :locals =>{:eventos => 'eventos'} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (83.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:32:06) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (Missing template eventos/_eventos.erb in view path app/views) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :partial => "eventos", :locals =>{:eventos => 'eventos'} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (86.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:33:10) [GET]
+  [4;36;1mEvento Load (5.7ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (95.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:34:07) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (289.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:34:09) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (97.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:34:56) [GET]
+  [4;35;1mEvento Load (5.4ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (298.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:34:57) [GET]
+  [4;36;1mEvento Load (8.4ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (110.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:35:02) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (6.4ms)
+Completed in 34ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index to #<evento:0xb571f394> (for 127.0.0.1 at 2009-08-17 10:35:08) [GET]
+  [4;36;1mEvento Load (16.7ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Completed in 25ms (View: 1, DB: 17) | 406 Not Acceptable [http://localhost/eventos.%23%3Cevento:0xb571f394%3E]
+
+
+Processing EventosController#index to #<evento:0xb571f394> (for 127.0.0.1 at 2009-08-17 10:35:43) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Completed in 22ms (View: 1, DB: 1) | 406 Not Acceptable [http://localhost/eventos.%23%3Cevento:0xb571f394%3E]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:35:58) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `show_eventos_url' for #<ActionView::Base:0xb58d7c68>) on line #15 of app/views/home/_eventos.html.erb:
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+14:     <td><%=h evento.data %></td>
+15:     <td><%= link_to 'Ver detalhes', show_eventos_url %></td>
+16:   </tr>
+17: <% end %>
+18: </table>
+
+    app/views/home/_eventos.html.erb:15
+    app/views/home/_eventos.html.erb:10:in `each'
+    app/views/home/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+
+Rendered rescues/_trace (96.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:36:09) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (14.8ms)
+Completed in 62ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:36:11) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (92.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:37:06) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (271.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:37:08) [GET]
+  [4;36;1mEvento Load (1.1ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (112.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:37:18) [GET]
+  [4;35;1mEvento Load (14.4ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (284.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:37:19) [GET]
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (118.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:37:57) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (100.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:38:48) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (5.9ms)
+Completed in 72ms (View: 35, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index to 3 (for 127.0.0.1 at 2009-08-17 10:38:50) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Completed in 46ms (View: 8, DB: 1) | 406 Not Acceptable [http://localhost/eventos.3]
+
+
+Processing EventosController#index to 3 (for 127.0.0.1 at 2009-08-17 10:39:13) [GET]
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Completed in 24ms (View: 1, DB: 1) | 406 Not Acceptable [http://localhost/eventos.3]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:39:16) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (5.6ms)
+Completed in 65ms (View: 31, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:39:18) [GET]
+  [4;36;1mEvento Load (9.4ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (114.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:40:00) [GET]
+  [4;35;1mEvento Load (1.4ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (4.8ms)
+
+ActionView::TemplateError (undefined local variable or method `edit_eventos_url' for #<ActionView::Base:0xb57e9054>) on line #54 of app/views/layouts/application.html.erb:
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :partial => "eventos", :locals =>{:eventos => 'eventos'} %>
+54:          <td><%= link_to 'Ver detalhes', edit_eventos_url %></td>
+55:          <hr />
+56:          
+57:          <%= yield %>
+
+    app/views/layouts/application.html.erb:54
+
+Rendered rescues/_trace (325.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:40:54) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 52ms (View: 24, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:40:56) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 49ms (View: 18, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:40:57) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 52ms (View: 17, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:41:01) [GET]
+  [4;35;1mEvento Load (1.4ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 36ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:41:01) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 57ms (View: 19, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:41:02) [GET]
+  [4;35;1mEvento Load (1.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 44ms (View: 26, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:41:03) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 44ms (View: 25, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:41:04) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 50ms (View: 24, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:41:10) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 18ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:41:12) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 63ms (View: 45, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:41:47) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 22ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:43:05) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 34ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:43:09) [GET]
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 47ms (View: 13, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:43:14) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 53ms (View: 23, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:45:41) [GET]
+  [4;36;1mEvento Load (17.6ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 48ms (View: 22, DB: 18) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:45:43) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 55ms (View: 26, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:45:44) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 64ms (View: 29, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:45:45) [GET]
+  [4;35;1mEvento Load (1.4ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 52ms (View: 34, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:45:46) [GET]
+  [4;36;1mEvento Load (1.1ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 19ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:46:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Completed in 52ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:47:02) [GET]
+  [4;36;1mEvento Load (1.2ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+Completed in 30ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:47:36) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (91.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:47:46) [GET]
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (3.9ms)
+Completed in 32ms (View: 18, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:47:50) [GET]
+  [4;35;1mEvento Load (1.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (89.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:48:34) [GET]
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (10.8ms)
+Completed in 72ms (View: 38, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:48:39) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (267.3ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:49:56) [GET]
+  [4;36;1mEvento Load (16.7ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (6.4ms)
+Completed in 40ms (View: 14, DB: 17) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:50:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (0.6ms)
+Completed in 35ms (View: 12, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:50:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (0.6ms)
+Completed in 43ms (View: 14, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:50:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (14.5ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (0.7ms)
+Completed in 59ms (View: 11, DB: 14) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:50:52) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (6.2ms)
+Completed in 301ms (View: 22, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:50:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (0.6ms)
+Completed in 55ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos/1]
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateEventos (20090817122709)
+Migrating to CreateNoticias (20090817135132)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE TABLE "noticias" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "titulo" varchar(255), "descricao" text, "data" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090817135132')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("eventos")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("noticias")[0m
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:52:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (Missing template eventos/_eventos.erb in view path app/views) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= render :partial => "eventos", :locals =>{:eventos => 'eventos'} %>
+54:          
+55:          <hr />
+56:          
+
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (81.2ms)
+Rendered rescues/_request_and_response (3.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:53:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/eventos/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/eventos/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (261.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:53:18) [GET]
+  [4;36;1mEvento Load (1.1ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (7.0ms)
+Completed in 96ms (View: 63, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:53:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/eventos/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/eventos/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (88.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:53:50) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (13.0ms)
+Completed in 38ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:53:50) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (8.7ms)
+Completed in 38ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:53:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/eventos/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/eventos/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (93.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:54:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/eventos/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/eventos/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (259.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:55:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.5ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/eventos/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/eventos/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (111.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:55:35) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (5.6ms)
+Completed in 39ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:55:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/eventos/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/eventos/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (91.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:56:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.5ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/eventos/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/eventos/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (309.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:56:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/eventos/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/eventos/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (108.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:56:38) [GET]
+  [4;35;1mEvento Load (9.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (16.1ms)
+Completed in 62ms (View: 23, DB: 9) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:56:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #10 of app/views/eventos/_eventos.html.erb:
+7:     <th>Data</th>
+8:   </tr>
+9: 
+10: <% @eventos.each do |evento| %>
+11:   <tr>
+12:     <td><%=h evento.titulo %></td>
+13:     <td><%=h evento.descricao %></td>
+
+    app/views/eventos/_eventos.html.erb:10
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (91.1ms)
+Rendered rescues/_request_and_response (4.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:57:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (2.1ms)
+Completed in 277ms (View: 256, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:57:11) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (36.8ms)
+Completed in 99ms (View: 85, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:57:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (0.6ms)
+Completed in 37ms (View: 7, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 10:57:15) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #3 of app/views/eventos/_eventos.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/_eventos.html.erb:3
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (247.2ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:58:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined local variable or method `home_path' for #<ActionView::Base:0xb5963268>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', home_path %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (104.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:58:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined local variable or method `home_path' for #<ActionView::Base:0xb57d7354>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', home_path %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (271.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 10:58:33) [GET]
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (4.2ms)
+Completed in 33ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:58:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined local variable or method `home_url' for #<ActionView::Base:0xb5873bf0>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', home_url %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (257.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:58:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined local variable or method `home_url' for #<ActionView::Base:0xb743d2f0>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', home_url %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (95.9ms)
+Rendered rescues/_request_and_response (3.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 10:58:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.5ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined local variable or method `home_url' for #<ActionView::Base:0xb58155a0>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', home_url %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (282.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:00:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined local variable or method `home' for #<ActionView::Base:0xb590ff50>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', home %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (95.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:00:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined local variable or method `home' for #<ActionView::Base:0xb578e5f0>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', home %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (94.7ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:01:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (2.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (1.7ms)
+Completed in 55ms (View: 11, DB: 3) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:01:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined local variable or method `homes_url' for #<ActionView::Base:0xb58129e0>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', homes_url %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (252.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:04:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined method `home_path' for #<ActionView::Base:0xb58f30f8>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', :home %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (103.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:04:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+
+ActionView::TemplateError (undefined local variable or method `home' for #<ActionView::Base:0xb59b291c>) on line #16 of app/views/eventos/_eventos.html.erb:
+13:   <%=h @evento.data %>
+14: </p>
+15: 
+16: <%= link_to 'Back', home => :home %>
+
+    app/views/eventos/_eventos.html.erb:16
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (106.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:05:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (2.3ms)
+Completed in 54ms (View: 11, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:05:25) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (10.5ms)
+Completed in 64ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:05:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (0.6ms)
+Completed in 25ms (View: 12, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:05:29) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (4.7ms)
+Completed in 49ms (View: 21, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:05:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (2.4ms)
+Completed in 253ms (View: 240, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:05:51) [GET]
+  [4;35;1mEvento Load (9.7ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (10.6ms)
+Completed in 67ms (View: 38, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:05:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (0.5ms)
+Completed in 31ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:05:53) [GET]
+  [4;35;1mEvento Load (11.6ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (9.8ms)
+Completed in 40ms (View: 13, DB: 12) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:05:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (0.5ms)
+Completed in 49ms (View: 17, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:06:05) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (4.3ms)
+Completed in 16ms (View: 7, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:06:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.5ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_eventos (0.5ms)
+Completed in 48ms (View: 15, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:06:08) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_eventos (4.2ms)
+Completed in 32ms (View: 8, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:07:04) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (11.2ms)
+Completed in 212ms (View: 191, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:07:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (1.9ms)
+Completed in 49ms (View: 20, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:07:08) [GET]
+  [4;36;1mEvento Load (1.1ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.7ms)
+Completed in 53ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:08:16) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.3ms)
+Completed in 39ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:08:18) [GET]
+  [4;36;1mEvento Load (7.5ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (8.7ms)
+Completed in 55ms (View: 15, DB: 8) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:08:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.6ms)
+Completed in 29ms (View: 7, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:08:23) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (15.8ms)
+Completed in 50ms (View: 19, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:08:25) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.1ms)
+Completed in 50ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:08:26) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (9.3ms)
+Completed in 36ms (View: 23, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:08:27) [GET]
+  [4;35;1mEvento Load (17.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (10.1ms)
+Completed in 44ms (View: 14, DB: 17) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:08:36) [GET]
+  [4;36;1mEvento Load (2.1ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (7.1ms)
+Completed in 50ms (View: 36, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:08:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (3.9ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (2.4ms)
+Completed in 275ms (View: 234, DB: 4) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:08:40) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (12.3ms)
+Completed in 34ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:08:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+Completed in 31ms (View: 7, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:08:43) [GET]
+  [4;36;1mEvento Load (10.4ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (5.2ms)
+Completed in 34ms (View: 10, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:09:24) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (11.2ms)
+Completed in 174ms (View: 155, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:09:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+Completed in 45ms (View: 14, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:09:32) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (6.7ms)
+Completed in 26ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:10:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (6.7ms)
+Completed in 43ms (View: 18, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:10:30) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.2ms)
+Completed in 40ms (View: 21, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:15:57) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.4ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.1ms)
+Completed in 35ms (View: 7, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:17:51) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.3ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.1ms)
+Completed in 38ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:17:53) [GET]
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.6ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.7ms)
+Completed in 179ms (View: 9, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:18:03) [GET]
+  [4;36;1mEvento Load (1.4ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.5ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (7.1ms)
+Completed in 55ms (View: 36, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-08-17 11:18:55) [GET]
+  [4;36;1mNoticia Load (0.7ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/noticias
+Rendering noticias/index
+Completed in 252ms (View: 216, DB: 1) | 200 OK [http://localhost/noticias]
+
+
+Processing NoticiasController#new (for 127.0.0.1 at 2009-08-17 11:18:58) [GET]
+Rendering template within layouts/noticias
+Rendering noticias/new
+Completed in 270ms (View: 247, DB: 0) | 200 OK [http://localhost/noticias/new]
+
+
+Processing NoticiasController#create (for 127.0.0.1 at 2009-08-17 11:19:09) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"gooaRl9Jcqzv2EbI6VAVETx0m4SjkvrFI2GUqLyXQD4=", "noticia"=>{"data(4i)"=>"14", "data(5i)"=>"18", "data(1i)"=>"2009", "data(2i)"=>"8", "titulo"=>"Teste", "descricao"=>"testando", "data(3i)"=>"17"}}
+  [4;35;1mNoticia Create (0.8ms)[0m   [0mINSERT INTO "noticias" ("updated_at", "titulo", "descricao", "data", "created_at") VALUES('2009-08-17 14:19:09', 'Teste', 'testando', '2009-08-17 14:18:00', '2009-08-17 14:19:09')[0m
+Redirected to http://localhost:3000/noticias/1
+Completed in 71ms (DB: 1) | 302 Found [http://localhost/noticias]
+
+
+Processing NoticiasController#show (for 127.0.0.1 at 2009-08-17 11:19:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" WHERE ("noticias"."id" = 1) [0m
+Rendering template within layouts/noticias
+Rendering noticias/show
+Completed in 157ms (View: 134, DB: 1) | 200 OK [http://localhost/noticias/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:19:13) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.7ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (15.6ms)
+Completed in 94ms (View: 42, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:19:46) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.7ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (5.2ms)
+Rendered home/_exibe_noticias (5.5ms)
+Completed in 93ms (View: 44, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NoticiasController#show (for 127.0.0.1 at 2009-08-17 11:19:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNoticia Load (0.7ms)[0m   [0mSELECT * FROM "noticias" WHERE ("noticias"."id" = 1) [0m
+Rendering template within layouts/noticias
+Rendering noticias/show
+Completed in 28ms (View: 5, DB: 1) | 200 OK [http://localhost/noticias/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:20:40) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.7ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (5.9ms)
+Rendered home/_exibe_noticias (10.9ms)
+Completed in 79ms (View: 27, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:20:42) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.7ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.5ms)
+Rendered home/_exibe_noticias (4.6ms)
+Completed in 46ms (View: 14, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:20:51) [GET]
+  [4;36;1mEvento Load (1.4ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.7ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (6.9ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #4 of app/views/home/_exibe_noticias.html.erb:
+1: <h1>Notívias</h1>
+2: 
+3: <p>
+4:   <b><%=h @noticia.titulo %></b>
+5: </p>
+6: 
+7: <p>
+
+    app/views/home/_exibe_noticias.html.erb:4
+    app/views/layouts/application.html.erb:60
+
+Rendered rescues/_trace (89.7ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:22:00) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.7ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.9ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #4 of app/views/home/_exibe_noticias.html.erb:
+1: <h1>Notívias</h1>
+2: 
+3: <p>
+4:   <b><%=h @noticia.titulo %></b>
+5: </p>
+6: 
+7: <p>
+
+    app/views/home/_exibe_noticias.html.erb:4
+    app/views/layouts/application.html.erb:60
+
+Rendered rescues/_trace (94.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:22:06) [GET]
+  [4;36;1mEvento Load (1.1ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.8ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (10.4ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #4 of app/views/home/_exibe_noticias.html.erb:
+1: <h1>Notívias</h1>
+2: 
+3: <p>
+4:   <b><%=h @noticia.titulo %></b>
+5: </p>
+6: 
+7: <p>
+
+    app/views/home/_exibe_noticias.html.erb:4
+    app/views/layouts/application.html.erb:60
+
+Rendered rescues/_trace (88.8ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:23:30) [GET]
+  [4;36;1mEvento Load (22.3ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.7ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (8.3ms)
+Rendered home/_exibe_noticias (122.3ms)
+Completed in 207ms (View: 162, DB: 23) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:24:08) [GET]
+  [4;36;1mEvento Load (5.5ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.7ms)
+Rendered home/_exibe_noticias (10.6ms)
+Completed in 62ms (View: 23, DB: 6) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:24:34) [GET]
+  [4;36;1mEvento Load (2.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.7ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (10.0ms)
+Rendered home/_exibe_noticias (4.5ms)
+Completed in 47ms (View: 27, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:25:57) [GET]
+  [4;36;1mEvento Load (1.2ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.8ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.4ms)
+Rendered home/_exibe_noticias (10.7ms)
+Completed in 55ms (View: 23, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-08-17 11:26:05) [GET]
+  [4;36;1mNoticia Load (1.0ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/noticias
+Rendering noticias/index
+Completed in 127ms (View: 73, DB: 1) | 200 OK [http://localhost/noticias]
+
+
+Processing NoticiasController#edit (for 127.0.0.1 at 2009-08-17 11:26:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mNoticia Load (0.7ms)[0m   [0mSELECT * FROM "noticias" WHERE ("noticias"."id" = 1) [0m
+Rendering template within layouts/noticias
+Rendering noticias/edit
+Completed in 77ms (View: 43, DB: 1) | 200 OK [http://localhost/noticias/1/edit]
+
+
+Processing NoticiasController#update (for 127.0.0.1 at 2009-08-17 11:27:30) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"gooaRl9Jcqzv2EbI6VAVETx0m4SjkvrFI2GUqLyXQD4=", "id"=>"1", "noticia"=>{"data(4i)"=>"14", "data(5i)"=>"18", "data(1i)"=>"2009", "data(2i)"=>"8", "titulo"=>"Computador e Internet", "descricao"=>"Nesta sociedade contemporânea tudo gira à volta deste meio de comunicação desde uma simples escrita à navegação na Internet. No entanto, o maior construtor de sistemas operativos “Microsoft” pouco se empenhou em desenvolver processos de acessibilidade. Esta é uma “dívida” que o Sr. Bill Gates tem para com a sociedade. Na Internet, ainda, existem sites públicos inacessíveis. Apesar desta acessibilidade ter a sua complexidade, quando bem executada permite a inclusão digital de todos.", "data(3i)"=>"17"}}
+  [4;36;1mNoticia Load (0.7ms)[0m   [0;1mSELECT * FROM "noticias" WHERE ("noticias"."id" = 1) [0m
+  [4;35;1mNoticia Update (0.9ms)[0m   [0mUPDATE "noticias" SET "descricao" = 'Nesta sociedade contemporânea tudo gira à volta deste meio de comunicação desde uma simples escrita à navegação na Internet. No entanto, o maior construtor de sistemas operativos “Microsoft” pouco se empenhou em desenvolver processos de acessibilidade. Esta é uma “dívida” que o Sr. Bill Gates tem para com a sociedade. Na Internet, ainda, existem sites públicos inacessíveis. Apesar desta acessibilidade ter a sua complexidade, quando bem executada permite a inclusão digital de todos.', "titulo" = 'Computador e Internet', "updated_at" = '2009-08-17 14:27:30' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/noticias/1
+Completed in 101ms (DB: 2) | 302 Found [http://localhost/noticias/1]
+
+
+Processing NoticiasController#show (for 127.0.0.1 at 2009-08-17 11:27:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mNoticia Load (0.6ms)[0m   [0;1mSELECT * FROM "noticias" WHERE ("noticias"."id" = 1) [0m
+Rendering template within layouts/noticias
+Rendering noticias/show
+Completed in 64ms (View: 34, DB: 1) | 200 OK [http://localhost/noticias/1]
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-08-17 11:27:34) [GET]
+  [4;35;1mNoticia Load (1.0ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/noticias
+Rendering noticias/index
+Completed in 30ms (View: 18, DB: 1) | 200 OK [http://localhost/noticias]
+
+
+Processing NoticiasController#new (for 127.0.0.1 at 2009-08-17 11:27:37) [GET]
+Rendering template within layouts/noticias
+Rendering noticias/new
+Completed in 80ms (View: 34, DB: 0) | 200 OK [http://localhost/noticias/new]
+
+
+Processing NoticiasController#create (for 127.0.0.1 at 2009-08-17 11:28:12) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"gooaRl9Jcqzv2EbI6VAVETx0m4SjkvrFI2GUqLyXQD4=", "noticia"=>{"data(4i)"=>"14", "data(5i)"=>"27", "data(1i)"=>"2009", "data(2i)"=>"8", "titulo"=>"Via Pública", "descricao"=>"Actualmente não existem intervenções urbanas inovadoras e coerentes com a filosofia de “Espaços Urbanos Acessíveis”, as passadeiras sem rampas são uma constante, os semáforos raramente estão bem temporizados, ainda não se eliminaram os obstáculos dos passeios e para as pessoas com problemas sensoriais faltam equipamentos de orientação e texturas diferenciadas.", "data(3i)"=>"17"}}
+  [4;36;1mNoticia Create (0.6ms)[0m   [0;1mINSERT INTO "noticias" ("updated_at", "titulo", "descricao", "data", "created_at") VALUES('2009-08-17 14:28:12', 'Via Pública', 'Actualmente não existem intervenções urbanas inovadoras e coerentes com a filosofia de “Espaços Urbanos Acessíveis”, as passadeiras sem rampas são uma constante, os semáforos raramente estão bem temporizados, ainda não se eliminaram os obstáculos dos passeios e para as pessoas com problemas sensoriais faltam equipamentos de orientação e texturas diferenciadas.', '2009-08-17 14:27:00', '2009-08-17 14:28:12')[0m
+Redirected to http://localhost:3000/noticias/2
+Completed in 51ms (DB: 1) | 302 Found [http://localhost/noticias]
+
+
+Processing NoticiasController#show (for 127.0.0.1 at 2009-08-17 11:28:12) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mNoticia Load (0.7ms)[0m   [0mSELECT * FROM "noticias" WHERE ("noticias"."id" = 2) [0m
+Rendering template within layouts/noticias
+Rendering noticias/show
+Completed in 30ms (View: 7, DB: 1) | 200 OK [http://localhost/noticias/2]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:28:16) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (6.1ms)
+Rendered home/_exibe_noticias (9.0ms)
+Completed in 102ms (View: 55, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:28:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (1.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (2.8ms)
+
+ActionView::TemplateError (Missing template eventos/_exibe_noticias.erb in view path app/views) on line #59 of app/views/layouts/application.html.erb:
+56:       
+57:       </div>
+58:          <div class="noticias">
+59:             <%= render :partial => "exibe_noticias", :locals =>{:noticias => 'noticias'} %>
+60:          </div>
+61:    </div>
+62: 
+
+    app/views/layouts/application.html.erb:59
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (316.1ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:29:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/eventos/_exibe_noticias.html.erb:
+1: <h1>Notícias</h1>
+2: 
+3: <% @noticias.each do |noticia| %>
+4: 
+5: <p>
+6:   <b><%=h noticia.titulo %></b>
+
+    app/views/eventos/_exibe_noticias.html.erb:3
+    app/views/layouts/application.html.erb:59
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (97.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:30:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/eventos/_exibe_noticias.html.erb:
+1: <h1>Notícias</h1>
+2: 
+3: <% @noticias.each do |noticia| %>
+4: 
+5: <p>
+6:   <b><%=h noticia.titulo %></b>
+
+    app/views/eventos/_exibe_noticias.html.erb:3
+    app/views/layouts/application.html.erb:59
+    app/controllers/eventos_controller.rb:19:in `show'
+
+Rendered rescues/_trace (285.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:30:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/eventos/_exibe_noticias.html.erb:
+1: <h1>Notícias</h1>
+2: 
+3: <% @noticias.each do |noticia| %>
+4: 
+5: <p>
+6:   <b><%=h noticia.titulo %></b>
+
+    app/views/eventos/_exibe_noticias.html.erb:3
+    app/views/layouts/application.html.erb:59
+    app/controllers/eventos_controller.rb:19:in `show'
+
+Rendered rescues/_trace (170.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:31:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (2.6ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/eventos/_exibe_noticias.html.erb:
+1: <h1>Notícias</h1>
+2: 
+3: <% @noticias.each do |noticia| %>
+4: 
+5: <p>
+6:   <b><%=h noticia.titulo %></b>
+
+    app/views/eventos/_exibe_noticias.html.erb:3
+    app/views/layouts/application.html.erb:59
+    app/controllers/eventos_controller.rb:19:in `show'
+
+Rendered rescues/_trace (96.3ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:31:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/eventos/_exibe_noticias.html.erb:
+1: <h1>Notícias</h1>
+2: 
+3: <% @noticias.each do |noticia| %>
+4: 
+5: <p>
+6:   <b><%=h noticia.titulo %></b>
+
+    app/views/eventos/_exibe_noticias.html.erb:3
+    app/views/layouts/application.html.erb:59
+    app/controllers/eventos_controller.rb:19:in `show'
+
+Rendered rescues/_trace (297.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:31:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/eventos/_exibe_noticias.html.erb:
+1: <h1>Notícias</h1>
+2: 
+3: <% @noticias.each do |noticia| %>
+4: 
+5: <p>
+6:   <b><%=h noticia.titulo %></b>
+
+    app/views/eventos/_exibe_noticias.html.erb:3
+    app/views/layouts/application.html.erb:59
+    app/controllers/eventos_controller.rb:19:in `show'
+
+Rendered rescues/_trace (97.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:31:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+Rendered eventos/_exibe_noticias (9.3ms)
+Completed in 55ms (View: 16, DB: 2) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:31:49) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (13.9ms)
+Rendered home/_exibe_noticias (6.1ms)
+Completed in 67ms (View: 42, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:31:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (5.1ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+  [4;36;1mNoticia Load (1.1ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+Rendered eventos/_exibe_noticias (8.3ms)
+Completed in 91ms (View: 22, DB: 6) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:32:02) [GET]
+  [4;35;1mEvento Load (1.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (1.1ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.2ms)
+Rendered home/_exibe_noticias (4.1ms)
+Completed in 39ms (View: 17, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:32:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+Rendered eventos/_exibe_noticias (9.1ms)
+Completed in 51ms (View: 16, DB: 2) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:32:07) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (1.0ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.5ms)
+Rendered home/_exibe_noticias (4.3ms)
+Completed in 45ms (View: 13, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:32:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+Rendered eventos/_exibe_noticias (10.5ms)
+Completed in 70ms (View: 19, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:32:10) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (1.0ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (13.8ms)
+Rendered home/_exibe_noticias (4.3ms)
+Completed in 57ms (View: 22, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:32:48) [GET]
+  [4;36;1mEvento Load (1.4ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (1.0ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (6.8ms)
+Rendered home/_exibe_noticias (227.3ms)
+Completed in 289ms (View: 270, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:32:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+  [4;35;1mNoticia Load (0.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (8.2ms)
+Rendered eventos/_exibe_noticias (5.8ms)
+Completed in 101ms (View: 41, DB: 2) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:32:52) [GET]
+  [4;36;1mEvento Load (1.1ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (4.2ms)
+Rendered home/_exibe_noticias (4.3ms)
+Completed in 38ms (View: 14, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 11:32:57) [GET]
+  [4;36;1mEvento Load (18.2ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #5 of app/views/eventos/_exibe_eventos.html.erb:
+2: 
+3: <p>
+4:   <b>Titulo:</b>
+5:   <%=h @evento.titulo %>
+6: </p>
+7: 
+8: <p>
+
+    app/views/eventos/_exibe_eventos.html.erb:5
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (260.4ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing NoticiasController#index (for 127.0.0.1 at 2009-08-17 11:36:53) [GET]
+  [4;35;1mNoticia Load (1.3ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/noticias
+Rendering noticias/index
+Completed in 102ms (View: 81, DB: 1) | 200 OK [http://localhost/noticias]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 11:38:12) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/eventos
+Rendering eventos/index
+Completed in 83ms (View: 72, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#new (for 127.0.0.1 at 2009-08-17 11:38:15) [GET]
+Rendering template within layouts/eventos
+Rendering eventos/new
+Completed in 49ms (View: 27, DB: 0) | 200 OK [http://localhost/eventos/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 11:38:22) [GET]
+  [4;35;1mEvento Load (1.7ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (7.3ms)
+Rendered home/_exibe_noticias (16.5ms)
+Completed in 102ms (View: 54, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:39:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 58ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:39:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+  [4;36;1mNoticia Load (9.1ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 74ms (View: 10, DB: 10) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:39:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+  [4;36;1mNoticia Load (2.5ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 233ms (View: 7, DB: 3) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 11:39:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (0.5ms)
+Rendered eventos/_exibe_noticias (9.9ms)
+Completed in 53ms (View: 18, DB: 2) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 11:41:18) [GET]
+  [4;35;1mEvento Load (8.6ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.titulo) on line #5 of app/views/eventos/_exibe_eventos.html.erb:
+2: 
+3: <p>
+4:   <b>Titulo:</b>
+5:   <%=h @evento.titulo %>
+6: </p>
+7: 
+8: <p>
+
+    app/views/eventos/_exibe_eventos.html.erb:5
+    app/views/layouts/application.html.erb:53
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (100.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-17 20:02:31) [GET]
+
+ActionController::RoutingError (No route matches "/exibe_detalhes_evento/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:02:36) [GET]
+  [4;36;1mEvento Load (1.4ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (1.1ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (109.2ms)
+
+ActionView::TemplateError (undefined local variable or method `noticia' for #<ActionView::Base:0xb78a7368>) on line #62 of app/views/layouts/application.html.erb:
+59:             <h1>Notívias</h1>
+60: 
+61:          <p>
+62:            <b><%=h noticia.titulo %></b>
+63:          </p>
+64: 
+65:          <p>
+
+    app/views/layouts/application.html.erb:62
+
+Rendered rescues/_trace (65.1ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:03:38) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (4.5ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `noticia' for #<ActionView::Base:0xb5891448>) on line #62 of app/views/layouts/application.html.erb:
+59:             <h1>Notívias</h1>
+60: 
+61:          <p>
+62:            <b><%=h noticia.titulo %></b>
+63:          </p>
+64: 
+65:          <p>
+
+    app/views/layouts/application.html.erb:62
+
+Rendered rescues/_trace (62.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:03:39) [GET]
+  [4;36;1mEvento Load (1.1ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `noticia' for #<ActionView::Base:0xb59abedc>) on line #62 of app/views/layouts/application.html.erb:
+59:             <h1>Notívias</h1>
+60: 
+61:          <p>
+62:            <b><%=h noticia.titulo %></b>
+63:          </p>
+64: 
+65:          <p>
+
+    app/views/layouts/application.html.erb:62
+
+Rendered rescues/_trace (71.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:05:18) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `noticia' for #<ActionView::Base:0xb587dba0>) on line #60 of app/views/layouts/application.html.erb:
+57:       </div>
+58:          <div class="noticias">
+59:             <p>
+60:   <b><%=h noticia.titulo %></b>
+61: </p>
+62: 
+63: <p>
+
+    app/views/layouts/application.html.erb:60
+
+Rendered rescues/_trace (61.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:06:00) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED compile error
+/home/ubuntu/Rails_TCC_2/projeto/app/views/layouts/application.html.erb:83: syntax error, unexpected kENSURE, expecting kEND
+/home/ubuntu/Rails_TCC_2/projeto/app/views/layouts/application.html.erb:85: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47layouts47application46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\">\n"
+@output_buffer.concat "<head>\n"
+@output_buffer.concat "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />\n"
+@output_buffer.concat(( stylesheet_link_tag "default" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat(( stylesheet_link_tag "scaffold" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "<title>ATIDEV</title>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( javascript_include_tag :defaults ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</head>\n"
+@output_buffer.concat "<body>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<div id=\"tudo\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "   <div id=\"topo\">\n"
+@output_buffer.concat "      <div id=\"titulo\">ATIDEV</div>\n"
+@output_buffer.concat "      <div id=\"descricao\">Associa\303\247\303\243o Tubaronense para a Integra\303\247\303\243o do Deficiente Visual</div>\n"
+@output_buffer.concat "   </div>\n"
+@output_buffer.concat "   \n"
+@output_buffer.concat "   <div id=\"topo_canto\">\n"
+@output_buffer.concat "      <div id=\"recursos\">A+ | A- | Alto contraste</div>\n"
+@output_buffer.concat "      <div id=\"login\">LOGIN | Cadastrar-se</div>\n"
+@output_buffer.concat "   </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      <div id=\"menu\">\n"
+@output_buffer.concat "         [Menu] <br /><br />\n"
+@output_buffer.concat "         <a href=\"#\">Link 1</a><br />\n"
+@output_buffer.concat "         <a href=\"#\">Link 2</a><br />\n"
+@output_buffer.concat "         <a href=\"#\">Link 3</a><br />\n"
+@output_buffer.concat "         <a href=\"#\">Link 4</a><br />\n"
+@output_buffer.concat "         <a href=\"#\">Link 5</a><br />\n"
+@output_buffer.concat "         <a href=\"#\">Link 6</a><br />\n"
+@output_buffer.concat "         <a href=\"#\">Link 7</a><br />\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "      \n"
+@output_buffer.concat "      <div id=\"conteudo\" tilte=\"Conte\303\272do principal\">\n"
+@output_buffer.concat "         <h2>Sobre a ATIDEV</h2>\n"
+@output_buffer.concat "         <p>Associa\303\247\303\243o Tubaronense para a Integra\303\247\303\243o do Deficiente Visual. Criada com o objetivo de atender \303\240 pessoas portadores de defici\303\252ncia visual (cegueira e baixa vis\303\243o). Atua na regi\303\243o da AMUREL (Associa\303\247\303\243o dos Munic\303\255pios da Regi\303\243o de Laguna, estado de Santa Catarina). </p>\n"
+@output_buffer.concat "         <h2>Acessibilidade e sua import\303\242ncia nos projetos de hoje e do futuro</h2>\n"
+@output_buffer.concat "         <p>Acessibilidade \303\251 um dos temas mais atuais e importantes no setor da constru\303\247\303\243o civil. O assunto n\303\243o \303\251 aplicado apenas na arquitetura e urbanismo mas, nesse campo, \303\251 cada vez mais discutido e deve ser tratado com seriedade. De modo geral, trata-se de permitir \303\240s pessoas com defici\303\252ncia, definitiva ou tempor\303\241ria, participarem de atividades que incluem o uso de edif\303\255cios, produtos, servi\303\247os e informa\303\247\303\243o.\n"
+@output_buffer.concat "         \n"
+@output_buffer.concat "         <a href=\"http://paulooliveira.wordpress.com/2007/07/16/acessibilidade-e-sua-importancia-nos-projetos-de-hoje-e-do-futuro/\" target=\"_blank\">Leia o texto na \303\255ntegra</a>\n"
+@output_buffer.concat "         \n"
+@output_buffer.concat "         </p>\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "   <div id=\"barra_lateral\">\n"
+@output_buffer.concat "      <div class=\"agenda\" title=\"Agenda da ATIDEV\">\n"
+@output_buffer.concat "         ";  unless flash[:aviso].blank? ; @output_buffer.concat "\n"
+@output_buffer.concat "         <div id=\"aviso\">"; @output_buffer.concat(( flash[:aviso] ).to_s); @output_buffer.concat "</div>\n"
+@output_buffer.concat "         ";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "         "; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "         \n"
+@output_buffer.concat "         <hr />\n"
+@output_buffer.concat "      \n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "         <div class=\"noticias\">\n"
+@output_buffer.concat "            ";  @noticias.each do |noticia| ; @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>\n"
+@output_buffer.concat "  <b>"; @output_buffer.concat((h noticia.titulo ).to_s); @output_buffer.concat "</b>\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>\n"
+@output_buffer.concat "  "; @output_buffer.concat((h noticia.descricao ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>\n"
+@output_buffer.concat "  "; @output_buffer.concat((h noticia.data ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "   \n"
+@output_buffer.concat "         </div>\n"
+@output_buffer.concat "   </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "   <div id=\"rodape\"><p>&reg; Todos os direitos reservados | <a href=\"#\">Web Designer</a></p></div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/ubuntu/Rails_TCC_2/projeto/app/views/layouts/application.html.erb:85:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:347:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1322:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1328:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/ubuntu/Rails_TCC_2/projeto/app/views/layouts/application.html.erb:83: syntax error, unexpected kENSURE, expecting kEND
+/home/ubuntu/Rails_TCC_2/projeto/app/views/layouts/application.html.erb:85: syntax error, unexpected $end, expecting kEND) on line #83 of app/views/layouts/application.html.erb:
+80: </body>
+81: </html>
+
+    app/views/layouts/application.html.erb:85:in `compile!'
+
+Rendered rescues/_trace (78.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:06:25) [GET]
+  [4;36;1mEvento Load (1.1ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Rendered home/_exibe_eventos (14.2ms)
+Completed in 184ms (View: 142, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:06:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering eventos/show
+Rendered eventos/_exibe_eventos (2.2ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #61 of app/views/layouts/application.html.erb:
+58:          <div class="noticias">
+59:             <h1>Notícias</h1>
+60: 
+61: <% @noticias.each do |noticia| %>
+62: 
+63: <p>
+64:   <b><%=h noticia.titulo %></b>
+
+    app/views/layouts/application.html.erb:61
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (246.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:07:27) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `yeld' for #<ActionView::Base:0xb58f4d7c>) on line #53 of app/views/layouts/application.html.erb:
+50:          <% unless flash[:aviso].blank? %>
+51:          <div id="aviso"><%= flash[:aviso] %></div>
+52:          <% end %>
+53:          <%= yeld %>
+54:          
+55:          <hr />
+56:       
+
+    app/views/layouts/application.html.erb:53
+
+Rendered rescues/_trace (61.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:07:36) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (4.2ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 44ms (View: 15, DB: 5) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 20:07:41) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/application
+Rendering eventos/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #61 of app/views/layouts/application.html.erb:
+58:          <div class="noticias">
+59:             <h1>Notícias</h1>
+60: 
+61: <% @noticias.each do |noticia| %>
+62: 
+63: <p>
+64:   <b><%=h noticia.titulo %></b>
+
+    app/views/layouts/application.html.erb:61
+    app/controllers/eventos_controller.rb:7:in `index'
+
+Rendered rescues/_trace (70.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:08:12) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (2.5ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 59ms (View: 21, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 20:08:16) [GET]
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+Rendering template within layouts/eventos
+Rendering eventos/index
+Completed in 75ms (View: 55, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 20:08:40) [GET]
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/eventos
+Rendering eventos/index
+Completed in 61ms (View: 42, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:08:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 35ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:10:16) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 39ms (View: 23, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:10:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 25ms (View: 7, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:10:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 21ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:10:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (2.4ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 44ms (View: 6, DB: 2) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:10:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 35ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:11:59) [GET]
+  [4;35;1mEvento Load (2.9ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 66ms (View: 26, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:12:17) [GET]
+  [4;35;1mEvento Load (2.5ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 53ms (View: 22, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:12:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 18ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:13:40) [GET]
+  [4;36;1mEvento Load (1.2ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (0.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 71ms (View: 37, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:13:50) [GET]
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (1.2ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `date' for #<Evento:0xb58eb40c>) on line #60 of app/views/layouts/application.html.erb:
+57: 
+58:             <%= link_to evento.titulo, evento_path(evento) %> 
+59:             
+60:             <%= evento.date %> 
+61:             
+62:             <br />
+63: 
+
+    app/views/layouts/application.html.erb:60
+    app/views/layouts/application.html.erb:56:in `each'
+    app/views/layouts/application.html.erb:56
+
+Rendered rescues/_trace (71.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:13:59) [GET]
+  [4;36;1mEvento Load (4.2ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (1.0ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 64ms (View: 20, DB: 5) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:14:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 24ms (View: 7, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:14:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 41ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:14:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 28ms (View: 7, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:16:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 18ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:16:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 42ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:16:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 23ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:17:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 26ms (View: 8, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:19:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 32ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:20:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (4.3ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 26ms (View: 4, DB: 4) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:20:51) [GET]
+  [4;35;1mEvento Load (2.5ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (1.0ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 37ms (View: 16, DB: 4) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:21:37) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 13, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:21:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (2.2ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 31ms (View: 12, DB: 2) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:22:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 22ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:22:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 44ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:23:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 47ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:25:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 47ms (View: 11, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:26:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 51ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:26:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 18ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:27:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 41ms (View: 18, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:27:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 50ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:27:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 53ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:27:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 32ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 54ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 28ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 34ms (View: 11, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 34ms (View: 12, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 251ms (View: 51, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.9ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?) on line #3 of app/views/eventos/show.html.erb:
+1: <p>
+2:   <b>Titulo:</b>
+3:   <%=h @evento.titulo %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/eventos/show.html.erb:3
+    app/controllers/eventos_controller.rb:18:in `show'
+
+Rendered rescues/_trace (106.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 42ms (View: 12, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 30ms (View: 10, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 50ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 36ms (View: 15, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 55ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 34ms (View: 15, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 52ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:28:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 39ms (View: 22, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:29:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 46ms (View: 10, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:29:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 28ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:29:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 34ms (View: 7, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 20:30:07) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/eventos
+Rendering eventos/index
+Completed in 28ms (View: 8, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:30:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 50ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 20:30:13) [GET]
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/eventos
+Rendering eventos/index
+Completed in 59ms (View: 25, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#edit (for 127.0.0.1 at 2009-08-17 20:30:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/edit
+Completed in 75ms (View: 50, DB: 1) | 200 OK [http://localhost/eventos/1/edit]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 20:30:21) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/eventos
+Rendering eventos/index
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:32:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 26ms (View: 10, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:32:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 28ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:32:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:32:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 28ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:32:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 44ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:33:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 28ms (View: 13, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:33:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 45ms (View: 8, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:33:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 23ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:36:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 45ms (View: 14, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:36:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 52ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:37:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 42ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:37:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 52ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:37:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 30ms (View: 10, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:37:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 50ms (View: 8, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:38:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 42ms (View: 10, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:38:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 54ms (View: 8, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:38:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (1.0ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 18ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:38:25) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 32ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:38:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (5.3ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 25ms (View: 5, DB: 5) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:38:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 49ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:38:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 32ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:39:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 36ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:39:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 50ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:39:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 52ms (View: 14, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:39:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 59ms (View: 11, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:40:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 30ms (View: 16, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:40:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 27ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:40:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 49ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:41:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 50ms (View: 17, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:42:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 39ms (View: 17, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:43:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 50ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:43:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 46ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:43:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 33ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:43:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 50ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:44:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 22ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:44:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 38ms (View: 7, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:44:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 41ms (View: 12, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:44:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 32ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:45:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 48ms (View: 16, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:45:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 48ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:46:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 53ms (View: 15, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:47:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (9.9ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 65ms (View: 13, DB: 10) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:47:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 56ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:48:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 30ms (View: 17, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:48:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (9.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 30ms (View: 6, DB: 10) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:48:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 54ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:49:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 26ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:49:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (1.0ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 45ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:49:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (5.3ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 46ms (View: 5, DB: 5) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#index (for 127.0.0.1 at 2009-08-17 20:49:26) [GET]
+  [4;35;1mEvento Load (6.6ms)[0m   [0mSELECT * FROM "eventos" [0m
+Rendering template within layouts/eventos
+Rendering eventos/index
+Completed in 48ms (View: 12, DB: 7) | 200 OK [http://localhost/eventos]
+
+
+Processing EventosController#new (for 127.0.0.1 at 2009-08-17 20:49:28) [GET]
+Rendering template within layouts/eventos
+Rendering eventos/new
+Completed in 60ms (View: 26, DB: 0) | 200 OK [http://localhost/eventos/new]
+
+
+Processing EventosController#create (for 127.0.0.1 at 2009-08-17 20:50:18) [POST]
+  Parameters: {"commit"=>"Create", "evento"=>{"data(4i)"=>"23", "data(5i)"=>"49", "data(1i)"=>"2009", "data(2i)"=>"8", "titulo"=>"Corrida para cegos", "descricao"=>"IV Corrida para cegos de Tubarão.", "data(3i)"=>"17"}, "authenticity_token"=>"gooaRl9Jcqzv2EbI6VAVETx0m4SjkvrFI2GUqLyXQD4="}
+  [4;36;1mEvento Create (0.9ms)[0m   [0;1mINSERT INTO "eventos" ("updated_at", "titulo", "descricao", "data", "created_at") VALUES('2009-08-17 23:50:18', 'Corrida para cegos', 'IV Corrida para cegos de Tubarão.', '2009-08-17 23:49:00', '2009-08-17 23:50:18')[0m
+Redirected to http://localhost:3000/eventos/2
+Completed in 263ms (DB: 1) | 302 Found [http://localhost/eventos]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:50:18) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 2) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 21ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/2]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:50:22) [GET]
+  [4;36;1mEvento Load (1.2ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (1.0ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 95ms (View: 30, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:50:26) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 2) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 25ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/2]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:50:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 40ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-17 20:51:29) [GET]
+  [4;36;1mEvento Load (1.2ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (10.9ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 64ms (View: 12, DB: 12) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:51:33) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mEvento Load (11.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 2) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 54ms (View: 5, DB: 12) | 200 OK [http://localhost/eventos/2]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:51:37) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 26ms (View: 13, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:53:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 160ms (View: 149, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:53:12) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 2) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 31ms (View: 11, DB: 1) | 200 OK [http://localhost/eventos/2]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:53:14) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 2) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 28ms (View: 13, DB: 1) | 200 OK [http://localhost/eventos/2]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-17 20:53:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 28ms (View: 14, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:28:12) [GET]
+  [4;36;1mEvento Load (1.6ms)[0m   [0;1mSELECT * FROM "eventos" [0m
+  [4;35;1mNoticia Load (1.4ms)[0m   [0mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 423ms (View: 398, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:28:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.9ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 67ms (View: 26, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:28:17) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 2) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 33ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/2]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:31:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 30ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:31:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 31ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:33:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 35ms (View: 4, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:33:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 60ms (View: 20, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:33:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (7.4ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 55ms (View: 7, DB: 7) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:35:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 24ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:36:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.7ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 48ms (View: 10, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:36:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 39ms (View: 7, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:36:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 45ms (View: 20, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:37:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 38ms (View: 6, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:41:30) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 37ms (View: 10, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:43:20) [GET]
+  [4;35;1mEvento Load (1.5ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.8ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.data) on line #60 of app/views/layouts/application.html.erb:
+57: 
+58:             <%= link_to evento.titulo, evento_path(evento) %> 
+59:             
+60:             <%= @evento.data.strftime("%d/%m/%Y") %>
+61:             
+62:             <br />
+63: 
+
+    app/views/layouts/application.html.erb:60
+    app/views/layouts/application.html.erb:56:in `each'
+    app/views/layouts/application.html.erb:56
+
+Rendered rescues/_trace (276.5ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:43:36) [GET]
+  [4;35;1mEvento Load (18.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.data) on line #60 of app/views/layouts/application.html.erb:
+57: 
+58:             <%= link_to evento.titulo, evento_path(evento) %> 
+59:             
+60:             <%= @evento.data.strftime("%d/%m/%Y") %>
+61:             
+62:             <br />
+63: 
+
+    app/views/layouts/application.html.erb:60
+    app/views/layouts/application.html.erb:56:in `each'
+    app/views/layouts/application.html.erb:56
+
+Rendered rescues/_trace (88.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:44:00) [GET]
+  [4;35;1mEvento Load (10.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 115ms (View: 53, DB: 11) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:46:21) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 50ms (View: 18, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:46:23) [GET]
+  [4;35;1mEvento Load (1.3ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 41ms (View: 17, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:46:25) [GET]
+  [4;35;1mEvento Load (1.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 111ms (View: 65, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:46:37) [GET]
+  [4;35;1mEvento Load (1.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 80ms (View: 47, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:46:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.7ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 48ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:47:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.6ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 45ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:47:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mEvento Load (0.6ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 33ms (View: 9, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:47:51) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 34ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/1]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:48:52) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 112ms (View: 81, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:49:25) [GET]
+  [4;35;1mEvento Load (1.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (5.6ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 60ms (View: 32, DB: 7) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:49:58) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (1.1ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 142ms (View: 74, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:50:23) [GET]
+  [4;35;1mEvento Load (1.2ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 148ms (View: 68, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:50:37) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (23.3ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 122ms (View: 36, DB: 24) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:50:39) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (0.9ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 112ms (View: 51, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-08-19 08:50:54) [GET]
+  [4;35;1mEvento Load (1.1ms)[0m   [0mSELECT * FROM "eventos" [0m
+  [4;36;1mNoticia Load (1.0ms)[0m   [0;1mSELECT * FROM "noticias" [0m
+Rendering template within layouts/application
+Rendering home/index
+Completed in 101ms (View: 45, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:51:00) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mEvento Load (0.8ms)[0m   [0mSELECT * FROM "eventos" WHERE ("eventos"."id" = 2) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 58ms (View: 5, DB: 1) | 200 OK [http://localhost/eventos/2]
+
+
+Processing EventosController#show (for 127.0.0.1 at 2009-08-19 08:51:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvento Load (0.8ms)[0m   [0;1mSELECT * FROM "eventos" WHERE ("eventos"."id" = 1) [0m
+Rendering template within layouts/eventos
+Rendering eventos/show
+Completed in 30ms (View: 16, DB: 1) | 200 OK [http://localhost/eventos/1]

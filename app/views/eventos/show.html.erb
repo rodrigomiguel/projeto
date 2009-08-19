@@ -1,0 +1,18 @@
+<h2>Detalhes do evento</h2>
+
+<p>
+  <b><%=h @evento.titulo %></b>
+</p>
+
+<p>
+  <%=h @evento.descricao %>
+</p>
+
+<p>
+  <b>Data:</b>
+  <%= @evento.data.strftime("%d/%m/%Y") %>
+</p>
+
+
+<%= link_to 'Edit', edit_evento_path(@evento) %> |
+<%= link_to 'Back', eventos_path %>

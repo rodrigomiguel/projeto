@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<%= stylesheet_link_tag "default" %>
+<%= stylesheet_link_tag "scaffold" %>
+<title>ATIDEV</title>
+
+<%= javascript_include_tag :defaults %>
+
+</head>
+<body>
+
+<div id="tudo">
+
+   <div id="topo">
+      <div id="titulo">ATIDEV</div>
+      <div id="descricao">Associação Tubaronense para a Integração do Deficiente Visual</div>
+   </div>
+   
+   <div id="topo_canto">
+      <div id="recursos">A+ | A- | Alto contraste</div>
+      <div id="login">LOGIN | Cadastrar-se</div>
+   </div>
+
+      <div id="menu">
+         [Menu] <br /><br />
+         <a href="#">Link 1</a><br />
+         <a href="#">Link 2</a><br />
+         <a href="#">Link 3</a><br />
+         <a href="#">Link 4</a><br />
+         <a href="#">Link 5</a><br />
+         <a href="#">Link 6</a><br />
+         <a href="#">Link 7</a><br />
+      </div>
+      
+      <div id="conteudo" tilte="Conteúdo principal">
+         <h2>Sobre a ATIDEV</h2>
+         <p>Associação Tubaronense para a Integração do Deficiente Visual. Criada com o objetivo de atender à pessoas portadores de deficiência visual (cegueira e baixa visão). Atua na região da AMUREL (Associação dos Municípios da Região de Laguna, estado de Santa Catarina). </p>
+         <h2>Acessibilidade e sua importância nos projetos de hoje e do futuro</h2>
+         <p>Acessibilidade é um dos temas mais atuais e importantes no setor da construção civil. O assunto não é aplicado apenas na arquitetura e urbanismo mas, nesse campo, é cada vez mais discutido e deve ser tratado com seriedade. De modo geral, trata-se de permitir às pessoas com deficiência, definitiva ou temporária, participarem de atividades que incluem o uso de edifícios, produtos, serviços e informação.
+         
+         <a href="http://paulooliveira.wordpress.com/2007/07/16/acessibilidade-e-sua-importancia-nos-projetos-de-hoje-e-do-futuro/" target="_blank">Leia o texto na íntegra</a>
+         
+         </p>
+      </div>
+
+   <div id="barra_lateral">
+      <div class="agenda" title="Agenda da ATIDEV">
+         <% unless flash[:aviso].blank? %>
+         <div id="aviso"><%= flash[:aviso] %></div>
+         <% end %>
+         
+         <h1>Agenda da ATIDEV</h1>
+
+         <% @eventos.each do |evento| %>
+
+            <%= link_to evento.titulo, evento_path(evento) %> 
+            
+            <%= evento.data.strftime("%d/%m/%Y") %> 
+            
+            <br />
+
+         <% end %>
+         
+         <%= yield %>
+         
+      </div>
+      
+         <div class="noticias">
+            <h1>Notícias</h1>
+
+            <% @noticias.each do |noticia| %>
+
+            <p>
+              <b><%=h noticia.titulo %></b> <br />
+              <%=h noticia.data.strftime("%d/%m/%Y") %>
+            </p>
+
+            <p>
+              <%=h noticia.descricao %>
+            </p>
+
+            <% end %>
+            
+         </div>
+   </div>
+
+   <div id="rodape"><p>&reg; Todos os direitos reservados | <a href="#">Web Designer</a></p></div>
+
+</div>
+
+</body>
+</html>
